@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /*border: solid 0.5px;*/
+
 }
 
 /***********header***********/
@@ -130,7 +130,7 @@ iframe{
 }
   
 /*---las mejores oferta---*/
-.off img{
+.off a img{
   display: flex;
   flex-direction:column;
   width: 100%;
@@ -165,6 +165,9 @@ h4{
 
 
 }
+
+
+
 
 /*---footer--*/s
 section p{
@@ -211,7 +214,8 @@ bottom:10px}
   position: absolute;
   top: 40%;
   left:430px;
- 
+  
+   
   width: 40px; 
    height: 40px; 
   border-radius: 100%;   
@@ -237,7 +241,7 @@ margin-top: 70px;}
 div.owl-theme .owl-dots .owl-dot span{display: none;}
 
 .owl-carousel .owl-nav button.owl-next span {
-  color:#afaeae ;
+  color:gray ;
   font-size: 40px;
   position: relative;
   bottom: 10px;
@@ -246,15 +250,30 @@ div.owl-theme .owl-dots .owl-dot span{display: none;}
   background: #0099cc ;
   color: #FFF;
   text-decoration: none;
-
-
 }
+.item {
+  height: auto;
+}
+.art{
+  height: auto;
+ 
+}
+.art:hover{
+  border: outset 2px #0099cc 
+}
+.card-marca{color:black}
+.card-name{font-size: 10px;}
+.card-price{color:#0099cc}
+
+
+
 .carrito {
     
     position: absolute;
     top: 16px;
     right: 0;
 }
+.tarjetas p{color: white;background: black;text-align: center;}
 @media (min-width: 768px){
   /*-header-*/
   .usuario{display: none;}
@@ -290,6 +309,7 @@ img.logo{
   color: gray;
 }
 /*--contenido--*/
+.contenido{margin-top: 7px;}
   .w-100 {
     width: 100% !important;
     height: 270px;
@@ -318,6 +338,7 @@ img.logo{
     
     top: 40%;
     left:720px;
+    
    
    
   
@@ -326,18 +347,30 @@ img.logo{
     
     top: 40%;
     right:720px;
+    
    }
   .owl-carousel.owl-loaded {
     
     margin-top: 0;
-}
+  }
+  .item {
+    height: auto;
+  }
+  .art{
+    height: auto;
+  }
  /*--footer--*/
  .pagos{
    width:100% ;
+   
  }
  .redes{text-align: center;}
-
-
+ .tarjetas p{
+  text-align: center;
+  color:white;
+  background: black;
+  
+}
 }
 
 
@@ -351,7 +384,7 @@ img.logo{
     background: #0099cc;
   }
   .contenido {
-    margin-top: 105px;
+    margin-top: 81px;
   }
   img.logo {
     width: 130px;
@@ -360,7 +393,7 @@ img.logo{
   }
  .input{
   
-  bottom: 104px;
+  bottom: 96px;
   left: 295px;
   }
   .serch {
@@ -371,14 +404,14 @@ img.logo{
 
   .menu{
     display:flex;
-    height: 50px;
+    height: 40px;
     background: black;
   }
   .carrito {
     position: absolute;
     top: 94px;
     right: 20px;
-    font-size: 27px;
+    font-size: 20px;
     color:white
   }
   .user {
@@ -387,9 +420,9 @@ img.logo{
   .usuario {
     display: block;
     position: absolute;
-    top: 90px;
+    top: 93px;
     right: 80px;
-    font-size: 29px;
+    font-size: 21px;
     border-radius: 100%;
     width: 35px;
     height: 34px;
@@ -445,81 +478,62 @@ b{display: block;
   height: 300px;
   margin:0
 }
-  
-  
-  
-  /* 
-.buscador {
-  display: none;
+
+
+
+
+
+
+/*----owl carousel----*/
+.item {
+  height: auto;
 }
-
-*/
-
-
-
-
-  /*
-.owl-carousel .owl-nav button.owl-prev span,
-  .owl-carousel .owl-nav button.owl-next span {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 40px;
-    position: relative;
-    bottom: 10px;
-  }
+.art{
+  height: auto;
+}
+.owl-carousel .owl-nav button.owl-next{
+    
+  top: 40%;
+  left:980px;
  
-  
-  
-  
+ 
 
-  .owl-carousel .owl-nav button.owl-next {
-    position: absolute;
-    top: 20%;
-    left: 800px;
-
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-  }
-  .owl-carousel {
-    margin-top: 70px;
-  }
-
-  .owl-theme .owl-dots .owl-dot.active span {
-    display: none;
-  }
-
-  div.owl-theme .owl-dots .owl-dot span {
-    display: none;
-  }
-
-  .owl-theme
-    .owl-nav
-    [class*="owl-"]
-    owl-carousel
-    .owl-nav
-    button.owl-next
-    span:hover {
-    background: blue;
-  }
-
-  .off {
-    display: flex;
-    width: 100%;
-
-    height: 60%;
-  }
-  .off img {
-    height: 60%;
-    width: 32%;
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-
-  footer {
-    background: rgba(0, 0, 0, 0.1);
-    margin-top: 0;
-  }*/
 }
+.owl-carousel .owl-nav button.owl-prev{
+  
+  top: 40%;
+  right:980px;
+ }
+  /*--footer--*/
 
-
-
+  .container-footer{
+    display: flex;  
+    flex-wrap: wrap;
+    width: 100%;  
+  }
+  .newsletter{
+    width: 100%;
+  }
+  .redes{
+    width: 100%;
+  }
+  .tarjetas{
+    width:70%
+  }
+  .pagos {
+    width: 70%;
+    margin-left: 20%;
+}
+  .tarjetas p{
+    text-align: center;
+    color:white
+  }
+  footer{background: black;}
+  .AFIP {
+    width: 100%;
+    background: white;
+    text-align: start;
+    margin-left: 6px;
+    
+  }
+}
