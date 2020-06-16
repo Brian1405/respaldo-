@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 10%;
+}
+
+/*Esta parte esta reservada para el header*/
+.buscador{display: none;}  
+.header {
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 999;
+}
+
+
+.submenu img{width: 160px;
+height: 70px;
+position:absolute;
+
+top:-8px;
+left:-24px;
+
+}
+
+.submenu{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+font-size: 12px;
+position: relative;
+background-color: #0099cc;
+
+
+}
+.envio{width: 45%;
+margin-right: 14px;
+height:15px;
+font-style: italic;
+
+}
+
+
+.submenu span{
+margin-right: 20px;
+height: 15px;
+font-style: italic;
+}
+.bi{text-align: end;}
+
+.navbar-nav{
+
+background-color: black;
+
+}
+
+.navbar-light .navbar-toggler { font-size: 14px;}
+.navbar-nav{width: 100%;}
+.nav-item:hover{background:#0099cc ;}
+/*Aca empieza la setcion donde tendra todo sobre el producto*/
+section{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+/*Contiene la img del Producto y las fotos pequeñas y su descripcion*/
+.imagen{
+    width: 100%;
+}
+
+.img, .img img{
+    width: 100%;
+}
+
+
+.photos{
+    display: none;
+}
+
+.description{
+    margin-bottom:50px;
+}
+/*Contiene el name del Product, su precio y descuento, junto con los botones de comprar y agregar al carrito*/
+.precio h2, .precio h3{
+    margin-bottom:30px;
+}
+.tallephone select, .boton button, .tallephone button{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 150%;
+}
+
+.tallephone button, .boton button{
+    background-color:rgb(0,154,202);
+    border: 0;
+    border-radius: 10px;
+    box-shadow:7px 5px 9px black;
+}
+
+.tallephone select:hover{
+    border:1px solid rgb(0,154,202);
+}
+
+/*(.talles) es el formulario con estilo para pantalla de escritorio*/
+.talles{
+    display: none;
+}
+@media(min-width:768px){
+    .tallephone select{
+        width: 45%;
+    }
+
+    .seleccion{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(min-width:1024px){
+    body{
+        padding-top: 21%;
+    }
+    /*La media query del header en resposive para escritorio*/
+    .submenu{
+        height: 30px;
+        justify-content: center;
+        background: black;
+    }
+    .envio{width:auto;
+        margin-right: 0;
+        font-size: 20px;
+        height: 30px;
+        color:white
+        
+        
+    }
+    .submenu span{
+        font-size: 18px;
+        height: 30px;
+        color:white
+        
+    }
+    .buscador{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    background: #0099cc;
+    }
+    .buscador input {
+     height: 30px;
+     width: 40%;
+     align-self: center;
+     
+     
+    }
+    /*.submenu img{
+        height: 180px;
+        width:500px;
+        position: absolute;
+        top:-22px;
+       left: -100px;
+    }*/
+    .nav-link{
+        width: 140px;
+        text-align: center;
+        
+    }
+     
+    .navbar-light .navbar-nav .active  .nav-link{display: none;}
+    .navbar-expand-lg{background: black;}
+    .nav-item:hover{background:#0099cc ;}
+    
+    .puma{margin-top: 198px;
+        height: 240px;
+        width: 109%;}
+    /*La media query del header termina aca*/
+    /*Los estilos de la imagen, descripcion y precio y todo lo demas*/
+    .tallephone{
+        display: none;
+    }
+
+    .talles{
+        display: block;
+    }
+
+    section{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .imagen{
+        width: 60%;
+    }
+
+    .precio{
+        width: 35%;
+    }
+
+    .talles{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .talles .uno, .talles .dos{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .talles select{
+        width: 50%;
+        font-size: 130%;
+    }
+
+    .talles select:hover{
+        border:1px solid #0099cc;
+    }
+
+    .talles input{
+        padding: 2%;
+        border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 15%;
+    border:1px solid rgb(0,154,202);
+    }
+
+    .talles button{
+        width: 100%;
+        background-color:rgb(0,154,202);
+        border: 0;
+        border-radius: 10px;
+        box-shadow:7px 5px 9px black;
+        margin-bottom: 8%;
+        font-size: 150%;
+    }
+
+    .uno, .dos, .talles select{
+        margin-bottom: 8%;
+    }
+    /*termina aca los estilos*/
+    /*Footer (*Falta los estilos*)*/
+    
+    /*Footer termina*/
+
+}

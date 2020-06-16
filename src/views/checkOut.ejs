@@ -1,0 +1,71 @@
+<%- include('partials/head', {title: 'UnlimitedSport'}) %>
+<!-- Header -->
+<%- include('partials/header') %> 
+<link rel="stylesheet" href="/stylesheets/detalleProducto.css">
+<!-- /Header -->
+
+       
+  
+    <!--header-->
+    <!--section-->
+    <section>
+        <div class="productCarrito">
+            <div class="titulo">
+                <h2>Carrito()</h2>
+            </div>
+            <div class="products">
+                <div class="image">
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div class="detail">
+                    <div class="detailProduct">
+                    <h3>zapatilla Adidas</h3>
+                    <form action="" method="GET" class="modificar">
+                        <label for="">Color:</label>
+                        <select name="" id="">
+                            <option value="">azul</option>
+                            <option value="">rojo</option>
+                            <option value="">negro</option>
+                        </select>
+                        <label for="">Talla:</label>
+                        <select name="" id="">
+                            <option value="">L</option>
+                            <option value="">M</option>
+                            <option value="">XL</option>
+                        </select>
+                        <button type="submit">Modificar</button>
+                    </form>
+                    <form action="" method="post">
+                        <button type="submit">Mas productos del vendedor</button>
+                    </form>
+                    <form action="" method="post">
+                        <button type="submit">Comprar ahora</button>
+                    </form>
+                    <form action="" method="post">
+                        <button type="submit">Eliminar</button>
+                    </form>
+                    </div>
+                    <div class="stock">
+                        <div class="numero">
+                            <h4>1</h4>
+                        </div>
+                        <p>Ultimos disponible</p>
+                    </div>
+                    <div class="precio">
+                        <h3>Precio: $5600</h3>
+                    </div>
+                </div>
+                    <div class="finalProduct">
+                        <h2>Productos(1)<span>$5600</span></h2>
+                        <h2>Costo de envio<span>0</span></h2>
+                        <h2>Tolal<span>$5600</span></h2>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--section-->
+     <!--section-->
+    <!--footer-->
+    <%- include('partials/footer') %> 
+    <!--footer-->
+    

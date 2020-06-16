@@ -1,0 +1,33 @@
+<%- include('partials/head', {title: 'Editar'}) %>
+  
+ <!--header-->
+    <%-include('partials/header')  %> 
+    <!--header-->
+    <h1 style="margin-top:200px">Producto a editar :<%= productoMarca%></h1>
+    
+    
+    <form action="/products/edit/<%=productoId%>?_method=PUT"  method="post" style="display:flex;flex-wrap:wrap;flex-direction: column;  width: 30%; ;">
+        
+        <label style="font-size: 20px; " for="marca" ></label>
+        <input type="text" name="name" id="nombre" Value="<%= productoMarca %> ">
+        
+        <label style="font-size: 20px; " for="nombre" ></label>
+        <input type="text" name="name" id="nombre" Value="Nombre"  placeholder="<%= productoNombre %>"value="<%= productoNombre %>">
+       
+        <label  style="font-size: 20px;" for="precio"></label>
+        <input type="text" name="price" id="precio"Value="<%= productoPrecio %> ">
+
+        <label style="font-size: 20px;" for="descuento"></label>
+        <input type="text" name="discount" id="descuento"Value="<%= productoDescuento %> ">
+        
+        <label style="font-size: 20px;" for="descripcion"></label>
+        <input type="text" name="description" id="descripcion"Value="<%= productoDescripcion %> ">
+        
+        <label style="font-size: 20px;" for="Categoria de Deporte"></label>
+        <input type="text" name="category" id="categoria"Value="<%=productoDeporte%> ">
+        
+        <button type="submit">Modificar</button>
+
+    </form>
+
+    <%- include('partials/footer') %>

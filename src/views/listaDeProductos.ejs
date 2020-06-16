@@ -1,0 +1,43 @@
+<%- include('partials/head', {title: 'UnlimitedSport'}) %>
+<!-- Header -->
+<%- include('partials/header') %> 
+<!-- /Header -->
+<h1 style='margin-top:200px;'>TODOS LOS PRODUCTOS </h1>
+<div class="container">
+<% arrayProducts.forEach(product => { %>
+ 
+    <div class="card" >
+  
+        <img src="/images/products/<%= product.image %> "     class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title"> <%= product.marca %> </h4>
+          <h5 class="card-title"> <%= product.name %> </h5>
+          <p class="card-text"><%= product.description %> </p>
+          <a href="/products/<%= product.id %> " class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    
+
+      <% }); %> 
+    </div>
+ <style>
+.card{
+  width: 30%;
+  margin:1% ;
+  
+  
+   
+}
+.container{
+  display: flex;flex-wrap: wrap;
+  width:auto;
+  border:solid;
+  align-content:center ;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ </style>
+
+
+<%- include('partials/footer') %> 

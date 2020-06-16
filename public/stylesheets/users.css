@@ -1,0 +1,17 @@
+
+h2{margin-top: 200px; }
+.container{ 
+    
+    display: flex;
+}
+.personal{
+    
+    display:flex;
+    flex-direction: column;
+    
+}
+.sesion{
+    display:flex;
+    flex-direction: column; 
+    
+}
