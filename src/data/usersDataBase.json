@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "nombre": "david",
+    "apellido": "diaz",
+    "email": "david@gmail.com",
+    "password": "$2b$10$Pq.ZugAEV4OTZKmEuTaL0OBnOqWTdSj8CFYa7yDxR8P4UrCWWDAoa",
+    "rcontraseña": "$2b$10$yrGUJO8zLj2lFGmLYNKBPO82K2Ybe3EfMFqKP63307PooekItMsrC",
+    "image": "image-1592627269149.png"
+  },
+  {
+    "id": 2,
+    "nombre": "nacho",
+    "apellido": "soria",
+    "email": "nacho@gmail.com",
+    "password": "$2b$10$p2xDEds1LbaZarhxHyiAQ.ksZ5koBwRxCD6ax8v/GDFUw6NHcg77a",
+    "rcontraseña": "$2b$10$fQITFL3/NVMX6R9KLMVODeJz49xC7JkgCceE.Kny9XBNDGStXPBj6",
+    "image": "image-1592632116332.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Brian",
+    "apellido": "Ramirez",
+    "email": "brian@gmail.com",
+    "password": "$2b$10$PV.gWrU91h3p2tz8yO/GmOm3zK4LJLPpGidYrqQ8.mQT.XuvPBwwO",
+    "rcontraseña": "$2b$10$gTu7CdAXcD1xyNjSntOucOwciXfr8PLzjDRefRC1ojX/AD1quLw2W",
+    "image": "image-1592632157021.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "kevin",
+    "apellido": "honguito",
+    "email": "david@gmail.com",
+    "password": "$2b$10$KgMPtJweFaixNjo9WSaLNOyAh3DUmVxsOzXlWNp5JevBPlNM9.KyC",
+    "rcontraseña": "$2b$10$5E/q9WdzbnnOhPxjmmWw.uxVsNthkOHeLKNp0WuDCtepGomBgazAq",
+    "image": "image-1592632227193.png"
+  },
+  {
+    "id": 5,
+    "nombre": "",
+    "apellido": "",
+    "email": "nacho@gmail.com",
+    "password": "$2b$10$9OriCAjhZEZ5b4QnNAoxWe8et0YYcEpf/B56JMstbROVrAxdCO2vm",
+    "rcontraseña": "$2b$10$oZ/BrZsas3FtzkK.xs1phuxfJBVGhPJU1HqPUtygKeGo7tAwmNzzu",
+    "image": "image-1592632608158.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "david",
+    "apellido": "diaz",
+    "email": "david@gmail.com",
+    "password": "$2b$10$MWmSv7HdEllbCMjYblBaN.giJLFMzc6hYh4rreUg5pmW821Th30SW",
+    "rcontraseña": "$2b$10$OoFNhmn3rhLYF1h1v9qVKOkCl9zv1w3HSj3bMet3lCf97bWgA.7TW",
+    "image": "image-1592633145879.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Pablo",
+    "apellido": "Jaguar",
+    "email": "Pablo@gmail.com",
+    "password": "$2b$10$6dKpEPxFHhr61y/YsS6VseIk2Q1wgL0bZpaQZdkdAmBJXg5JEzSh.",
+    "rcontraseña": "$2b$10$0sciTLPTwrey4vA6.Csnkuy/l2MbqMP6PXrWfsBbqannSF4Ka5PTi",
+    "image": "image-1592708032365.png"
+  }
+]

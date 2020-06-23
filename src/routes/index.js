@@ -5,6 +5,7 @@ var methodOverride = require('method-override')// para put y delete
 var multer= require('multer');// para subir archivo fotos o videos 
 var path=require('path')
 
+
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, 'public/images/products')
